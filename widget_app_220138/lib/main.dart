@@ -19,7 +19,7 @@ class MainApp extends StatelessWidget {
       providers: [ChangeNotifierProvider(lazy: false, create: (_) => DiscoverProvider()..loadNextPage())],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        theme: AppTheme(selectedColor: 0).getTheme(),
+        theme: AppTheme().getTheme(),
         home: const DiscoverScreen(),
       ),
     );

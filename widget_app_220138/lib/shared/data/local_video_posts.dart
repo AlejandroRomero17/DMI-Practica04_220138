@@ -2,8 +2,8 @@ List<Map<String, dynamic>> videoPost = [
   {
     'name': 'Subiendo las escaleras automáticas',
     'videoUrl': 'assets/videos/1,.mp4',
-    'likes': 12,
-    'views': 25,
+    'likes': 1248594,
+    'views': 2552909,
   },
   {
     'name': 'La madre naturaleza',
